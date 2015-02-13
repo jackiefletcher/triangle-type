@@ -5,8 +5,9 @@ var bc = b + c;
 var ca = c + a;
 
   if ( ab < c || bc < a || ca < b) {
+    alert("What you entered is not a triangle")
     return "not a triangle"
-  } else if (a === b, b === c, c === a) {
+  } else if (a === b && b === c && c === a) {
     return "equilateral"
   } else if (a !== b && b !== c && c !== a) {
     return "scalene"
