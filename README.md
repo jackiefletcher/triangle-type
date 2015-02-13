@@ -1,24 +1,15 @@
-##Band Venue Tracker
+##Triangle Type
 
-This will create an app to add a list of bands to venues, and to update/delete the band information.
+This will create an app to check the three sides of a triangle and determine what type of triangle it is.
 
 ##Setup
-Assuming you have ruby installed. In the terminal:
+Open the triangle.html file in your browser.
 
-`gem install bundle`
-
-`bundle`
-
-See schema.rb for more details.
-
-`ruby app.rb`
-
-Go to http://localhost:4567 in your browser
+Please note the JQuery library and Bootstrap CSS styles are included via links in the html html document headers.
 
 ##Tests
 Testing the Javascript functions can be done by opening the spec-runner.html file.
 
-JQuery and Bootstrap CSS styles are included via links in the html html document headers.
 
 ##Motivation
 
