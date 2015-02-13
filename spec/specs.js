@@ -11,4 +11,8 @@ describe("triangle", function() {
     expect(triangle(5, 5, 3)).to.equal("isoceles");
   });
 
+  it("will confirm that it is in fact a triangle", function() {
+    expect(triangle(4, 4, 10)).to.equal("that is not a triangle");
+  });
+
 });
