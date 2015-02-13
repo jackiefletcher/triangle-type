@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Triangle Type</title>
   </head>
   <body>
+    <div class="container">
+      <h3>See what kind of triangle it is by entering the lengths below</h3>
+      <form id="triangle">
+        <div class="form-group">
+            <label for="a">Enter triangle side a:</label>
+            <input id="a" type="text" name="a">
+            <br />
 
+            <label for="b">Enter triangle side b:</label>
+            <input id="b" type="text" name="b">
+            <br />
+
+            <label for="c">Enter triangle side c:</label>
+            <input id="c" type="text" name="c">
+            <br />
+
+          <button type="submit" class="btn-info">Go!</button>
+        </div>
+      </form>
+
+      <div id="result">
+        <h4>Your triangle is: <span class="triangle-type"></span>.</h4>
+      </div>
+
+    </div>
   </body>
 </html>
